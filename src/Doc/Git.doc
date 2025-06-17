@@ -1,0 +1,10 @@
+I have changed something on main, now I switched to dev and want to match dev too, so what should I do it?
+    ->git checkout dev
+      git pull origin dev                # update local dev
+      git merge main                     # merge changes from main into dev
+      git push origin dev                # push the updated dev branch
+How to look in git graph:
+    ->git log --oneline --graph --decorate --all
+      * cf5e7a4 (HEAD -> dev, origin/main, origin/dev, main) 2nd test
+      * 2b49f90 testing Dev_branch
+      * 4322a06 Initial commit
