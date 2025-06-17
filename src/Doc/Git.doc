@@ -8,3 +8,7 @@ How to look in git graph:
       * cf5e7a4 (HEAD -> dev, origin/main, origin/dev, main) 2nd test
       * 2b49f90 testing Dev_branch
       * 4322a06 Initial commit
+How to push code:
+    -> git add .
+    -> git commit -m "Write your comment"
+    -> git push origin main 
